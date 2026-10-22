@@ -7,6 +7,7 @@
 //! constants allow) fidelity to Oura's results. Anything we could not fully recover
 //! is flagged in the module docs and in `docs/algorithms/`.
 
+pub mod activity_score;
 pub mod baseline;
 pub mod hrv;
 pub mod metabolic;
